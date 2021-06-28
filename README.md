@@ -10,7 +10,7 @@ main    MOV R0, #0x55         ; move a constante em 55 em hexadecimal para R0
         MOV R2, R1, LSR #8    ; move R1, com os bits deslocados à direita 8 casas, para R2 (ou divide R1 por 2^8 e guarda o resultado em R2)
         MOV R3, R2, ASR #4    ; move R2, com os bits deslocados à direita 4 casas, para R3 (ou divide R2 por 2^4 e guarda o resultado em R3) e mantém o sinal
         MOV R4, R3, ROR #2    ; move os bits de R3 para a direita 2 casas, e os bits retirados no LSB são colocados no MSB, e o resultado guardado em R4
-        MOV R5, R4, RRX       ; Faz o que o ROR faz, mas com o bit de carry 
+        MOV R5, R4, RRX       ; Faz o que o ROR faz, movendo um bit para a direita, e envolve o bit de carry na operação
           
         B       main          ; retorna ao início da main
 
