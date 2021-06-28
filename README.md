@@ -24,7 +24,7 @@ Em complemento de 2
 Sim
 
 • Como o PC está relacionado à janela Disassembly?
-O PC aponta para a próxima instrução a ser seguida, então o valor que o PC guarda, aparece na Disassembly uma linha destacada, referente à próxima instrução.
+O PC aponta para a próxima instrução a ser seguida, então o valor que o PC guarda, aparece na Disassembly uma linha destacada, referente à próxima instrução a ser executada.
 
 • Quais instruções são de 16 bits e quais são de 32 bits?
 As instruções com extensão .W são de 32 bits (wide) e .N 16 bits (narrow). Então no programa somente a instrução B tem 16 bits.
